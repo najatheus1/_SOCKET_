@@ -64,7 +64,7 @@ Servidor :
 		return 0;
 	}
 
-	char* buffer = new char[500];
+	char buffer[500];
 
 	while (true) {
 		SOCKET c = so.accept_();
