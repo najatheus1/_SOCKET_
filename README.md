@@ -36,10 +36,9 @@ Client :
 
 Servidor : 
 
-    #include "pessoa.hpp"
     #include "socket.h"
 
-    int main()
+    int main(void)
     {
 	char teste[] = "127.0.0.1";
 	Socket so(teste, 12000, 10, SOCK_STREAM, AF_INET, 0);
