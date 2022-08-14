@@ -2,7 +2,7 @@
 
 ### Linguagem utilizada : C++
 
-#### Estarei deixando logo exemplos de utilizar ela : 
+#### Estarei deixando logo abaixo exemplos de como utilizar ela : 
 
 Client : 
 
