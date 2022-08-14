@@ -7,8 +7,8 @@
 #include <WinSock2.h>
 #pragma comment(lib, "Ws2_32.lib")
 #else 
-#include <sys/sock.h>
-#include <aspas/inet.h>
+#include <sys/socket.h>
+#include <arpa/inet.h>
 #endif
 
 #include "include.hpp"
